@@ -527,7 +527,7 @@
 
 		ul.buttons li {
 			display: inline-block;
-			padding: 0 0 0 1.5em;
+			/*padding: 0 0 0 1.5em;*/
 		}
 
 			ul.buttons li:first-child {
@@ -651,6 +651,27 @@
       color: black;
       text-align: center;
     }
+
+
+    a.button.contact, a.button.fit.scrolly.totop {
+      color: pink;
+      cursor: pointer;
+      display: inline;
+      font-size: 0.8em;
+      font-weight: 900;
+      letter-spacing: 2px;
+      min-width: 18em;
+      padding: 0 0.75em;
+      line-height: 3.75em;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    a.button.contact:hover, a.button.fit.scrolly.totop {
+      text-decoration: underline;
+    }
+
 
 /* Wrapper */
 
@@ -1027,11 +1048,12 @@
 
 	#cta {
 		background-attachment: scroll, scroll, scroll, fixed;
-		background-color: #645862;
+		background-color: black;
 		/*background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("images/sylwia-bartyzel-112721.jpg");*/
 		background-position: top left, top right, top left, bottom center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
+    padding: 2em !important;
 		color: white;
 		padding: 5em;
 		text-align: center;
@@ -1040,6 +1062,14 @@
 		#cta header {
 			margin-bottom: 2em;
 		}
+
+    p.slash {
+      letter-spacing: 0.1em;
+      margin: 0;
+      text-transform: uppercase;
+      display: inline;
+      color: pink;
+    }
 
 /* Footer */
 
