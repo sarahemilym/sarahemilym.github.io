@@ -392,6 +392,7 @@
       .project-link {
         margin-right: 10px;
         font-size: 18px;
+        color: #FF5D7A;
       }
 
       .project-link:hover {
@@ -651,7 +652,7 @@
     }
 
 
-    a.button.contact, a.button.fit.scrolly.totop {
+    a.button.fit.scrolly.totop {
       color: pink;
       cursor: pointer;
       display: inline;
@@ -662,7 +663,7 @@
       padding: 0 0.75em;
       line-height: 3.75em;
       text-align: center;
-      text-decoration: none;
+      text-decoration: none !important;
       text-transform: uppercase;
     }
 
