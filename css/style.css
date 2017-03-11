@@ -286,17 +286,17 @@
         height: 156px;
         float: left;
         margin: 0 auto;
-        filter: grayscale(100%);
+        /*filter: grayscale(100%);*/
 			}
 
-			.image.featured.right img {
+			/*.image.featured.right img {
         display: block;
         width: 29%;
         height: 156px;
         float: right;
         margin: 0 auto;
-        filter: grayscale(100%);
-			}
+        /*filter: grayscale(100%);*/
+			}*/
 
 			.image.featured img:hover {
         filter: none;
@@ -307,21 +307,13 @@
 			}
 
 
-
-      .timeline {
-        height: 422px;
-        width: 95%;
-        margin: 0 auto;
-        filter: grayscale(70%)
-      }
-
       .row>* {
         float: none;
       }
 
       .row.line.left {
         border-bottom: 1px solid black;
-        border-bottom-style: dotted;
+        /*border-bottom-style: dotted;*/
         width: 500px;
         float: left;
         margin: 30px 0 30px 0;
@@ -340,7 +332,7 @@
       }
 
       #musync {
-        height: 120px;
+        height: 150px;
         width: 350px;
       }
 
@@ -352,14 +344,59 @@
         margin-right: 200px;
       }
 
-      #snowglobe {
+      /*#snowglobe {
         margin-right: 73px;
-      }
+        height: 180px;
+      }*/
 
-      #klick-it {
+      /*#klick-it {
         margin-left: 62px;
+        height: 180px;
+      }*/
+
+      .right {
+        float: right;
+        text-align: right;
       }
 
+      .right img { margin-right: -20px; }
+
+      .left {
+        float: left;
+        text-align: left;
+      }
+
+      .left img { margin-left: -20px; }
+
+      .project {
+        max-width: 600px;
+      }
+
+      .project img {
+        width: 200px;
+      }
+
+      .project div h3 {
+        font-weight: 500;
+        font-size: 25px;
+      }
+
+      .project div h6 {
+        margin-top: -10px;
+      }
+
+      .project div p {
+        margin-top: 20px;
+      }
+
+      .project-link {
+        margin-right: 10px;
+        font-size: 18px;
+      }
+
+      .project-link:hover {
+        text-decoration: underline;
+      }
 /* Icon */
 
 	.icon {
@@ -375,7 +412,7 @@
 			text-transform: none !important;
 		}
 
-		.icon.circle {
+		/*i.icon {
 			-moz-transition: all 0.2s ease-in-out;
 			-webkit-transition: all 0.2s ease-in-out;
 			-o-transition: all 0.2s ease-in-out;
@@ -392,56 +429,11 @@
 			text-decoration: none;
 			top: 0;
 			width: 2.25em;
-		}
+		}*/
 
-			.icon.circle:hover {
+			.icon:hover {
 				top: -0.2em;
 			}
-
-			.icon.circle.fa-twitter {
-				background: #70aecd;
-				color: white;
-			}
-
-				.icon.circle.fa-twitter:hover {
-					background: #7fb7d2;
-				}
-
-			.icon.circle.fa-facebook {
-				background: #7490c3;
-				color: white;
-			}
-
-				.icon.circle.fa-facebook:hover {
-					background: #829bc9;
-				}
-
-			.icon.circle.fa-google-plus {
-				background: #db6b67;
-				color: white;
-			}
-
-				.icon.circle.fa-google-plus:hover {
-					background: #df7b77;
-				}
-
-			.icon.circle.fa-github {
-				background: #dcad8b;
-				color: white;
-			}
-
-				.icon.circle.fa-github:hover {
-					background: #e1b89b;
-				}
-
-			.icon.circle.fa-dribbble {
-				background: #da83ae;
-				color: white;
-			}
-
-				.icon.circle.fa-dribbble:hover {
-					background: #df93b8;
-				}
 
 		.icon.featured {
 			cursor: default;
@@ -459,6 +451,12 @@
 		.icon > .label {
 			display: none;
 		}
+
+    i.icon {
+      color: white;
+      font-size: 29px;
+      padding: 20px;
+    }
 
 /* List */
 
