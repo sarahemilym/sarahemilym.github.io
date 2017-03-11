@@ -306,11 +306,6 @@
         filter: none;
 			}
 
-
-      .row>* {
-        float: none;
-      }
-
       .row.line.left {
         border-bottom: 1px solid black;
         /*border-bottom-style: dotted;*/
