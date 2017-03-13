@@ -55,7 +55,7 @@
 	}
 
 	p, ul, ol, dl, table, blockquote {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -108,6 +108,14 @@
 
   .container {
     text-align: center;
+  }
+
+  .about-me {
+    font-size: 15px;
+  }
+
+  .wrapper.style1.container.special p {
+    font-size: 15px;
   }
 
 /* Section/Article */
@@ -382,12 +390,13 @@
 
       .project div p {
         margin-top: 20px;
+        font-size: 15px;
       }
 
       .project-link {
         margin-right: 10px;
         font-size: 18px;
-        color: #FF5D7A;
+        color: #17BEBB;
       }
 
       .project-link:hover {
